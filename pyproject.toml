@@ -1,0 +1,22 @@
+[project]
+name = "dutch"
+version = "0.1.0"
+description = "A simple Python package named Dutch"
+authors = [
+    { name = "Justin Donaldson", email = "jdonaldson@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jupyterlab",
+    "polars",
+    "scikit-learn"
+]
+
+[tool.setuptools]
+packages = ["dutch"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

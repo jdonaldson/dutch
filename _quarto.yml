@@ -1,0 +1,51 @@
+project:
+  type: website
+
+toc: true
+
+number-sections: false
+
+format:
+  html:
+    theme: sandstone
+    # css: style.css
+    page-layout: full
+
+website:
+  # favicon: "images/nav-logo.jpeg"
+  # site-url: "http://www.jjd.io"
+  # twitter-card:
+  #   site: "@omgjjd"
+  #   card-style: "summary_large_image"
+  # image : "images/me.jpeg"
+  open-graph: true
+  title: "Dutch"
+  # body-footer: "<i>© Copyright 2024 Justin Donaldson. Except where otherwise noted, all rights reserved. The views and opinions on this website are my own and do not represent my current or former employers.</i>"
+  navbar:
+    # logo : "images/nav-logo.jpeg"
+    left:
+      - index.qmd
+      - "notebooks/Basic Modeling.ipynb"
+      # - about.qmd
+      # - cv.qmd
+    # right:
+    #   - icon: github
+    #     href: https://github.com/jdonaldson
+    #     aria-label: GitHub
+    #   - icon: twitter
+    #     href: https://twitter.com/omgjjd
+    #     aria-label: Twitter
+    #   - icon: linkedin
+    #     href: https://www.linkedin.com/in/jjustindonaldson/
+    #     aria-label: Linkedin
+    #   - icon: vinyl-fill
+    #     href: https://www.discogs.com/user/omgjjd
+    #     aria-label: Discogs
+
+  # google-analytics: "G-J1DD0F3VY9"
+
+execute:
+  freeze: auto
+
+# resources:
+#   - CNAME
